@@ -1,0 +1,27 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  margin: 250px 600px;
+  gap: 20px;
+  border: 1px solid black;
+  padding: 60px;
+}
+input {
+  height: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h2 {
+  color: white;
+  text-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
+label {
+  text-align: center;
+}
